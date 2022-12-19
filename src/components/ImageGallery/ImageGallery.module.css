@@ -1,0 +1,10 @@
+.galleryList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  list-style: none;
+}
+.galleryItem {
+  height: 270px;
+}

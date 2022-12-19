@@ -1,0 +1,31 @@
+.btnMore {
+  width: 120px;
+  height: 40px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: rgb(243, 230, 213);
+  color: black;
+  border-radius: 7px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnMore:hover,
+.btnMore:focus {
+  color: wheat;
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  place-content: center;
+  align-items: center;
+  padding: 20px 0;
+}

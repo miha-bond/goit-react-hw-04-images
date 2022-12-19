@@ -1,0 +1,15 @@
+.galleryImg {
+  width: 370px;
+  height: 100%;
+  max-width: unset;
+  object-fit: cover;
+  border: 2px solid black;
+  border-radius: 12px;
+  transition: transform 0.15s linear;
+}
+
+.galleryImg:hover,
+.galleryImg:focus {
+  transform: scale(1.03);
+  cursor: zoom-in;
+}
